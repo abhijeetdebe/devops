@@ -6,13 +6,14 @@ spec:
   replicas: 2
   selector: 
     matchLabels:
-         env: production
+          env: production
   template:
     metadata:
      name: index-pod
      labels:
-         env: production
+          env: production
     spec: 
-       containers:
+      containers:
        - name: index-con
-         image: abhijeetdebe/webserverimage:latest
+         image: abhijeetdebe/webserverimage:4
+
