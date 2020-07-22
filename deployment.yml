@@ -15,5 +15,5 @@ spec:
     spec: 
       containers:
        - name: index-con
-         image: abhijeetdebe/webserverimage:9
+         image: abhijeetdebe/webserverimage:10
 
